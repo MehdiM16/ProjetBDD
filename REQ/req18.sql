@@ -1,0 +1,2 @@
+-- 18 LE NOMBRE D'ETAPES PAR VOYAGE (HORS DEPART/ARRIVEE)
+SELECT id_voyage, COUNT(*) - 2 AS nb_escales FROM Etapes GROUP BY id_voyage;

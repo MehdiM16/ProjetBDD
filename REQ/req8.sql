@@ -1,0 +1,2 @@
+-- 8 LES VOYAGES INTERCONTINENTAUX QUI NE SONT PAS DETOURNES
+SELECT * FROM (SELECT * FROM voyages WHERE date_arrivee IS NOT NULL) AS non_detournes WHERE intercontinental;

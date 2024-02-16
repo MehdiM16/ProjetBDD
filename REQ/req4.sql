@@ -1,0 +1,2 @@
+-- 4 LE NOMBRE DE PORTS PAR PAYS
+SELECT pays, COUNT(*) FROM ports GROUP BY pays;

@@ -1,0 +1,2 @@
+-- 11 LA MOYENNE DE CAPACITE PASSAGERS DES PLUS GROS NAVIRES DE CHQ PAYS 
+WITH Big_bateaux(cap) AS (SELECT MAX(cap_passagers) FROM Navires GROUP BY pays) SELECT AVG(cap) FROM Big_bateaux;

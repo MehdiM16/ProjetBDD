@@ -1,0 +1,13 @@
+Binome 1 :
+Mehdi Khali 21953253
+Ghillas Immoune 21954040
+
+Le projet est composé de :
+-> une modélisation E/R (avec les contraintes)
+-> des requêtes SQL pour créer les tables
+-> des fichiers CSV pour remplir les tables
+-> des requêtes pour interroger la BDD
+
+Pour remplir une table :
+-> on ouvre psql
+-> on utilise la commande COPY <nom_table> FROM <chemin_absolu_csv> DELIMITER ','
